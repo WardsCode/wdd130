@@ -10,7 +10,7 @@ nav a{
 
 }
 
-h1 {
+img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -24,12 +24,10 @@ p {
 
 }
 
+h1{
+  color: steelblue;
+}
 
 
 
 
-
-100
-1
-10
-10
