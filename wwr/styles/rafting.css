@@ -1,0 +1,45 @@
+@import url("https://fonts.google.com/specimen/Oswald?query=oswald");
+
+:root {
+    --primary-color: #5EB1BF;
+    --secondary-color: #CD5334;
+    --accent-color-1: #2e28a2;
+    --accent-color-1: #1F487E;
+
+    --heading-font: "https://fonts.google.com/specimen/Oswald?query=oswald", serif;
+    --paragraph-font: "https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans", serif;
+    --navigation-background-color: blue;
+    --navigation-link-color: darkblue;
+    --navigation-hover-link-color: orange;
+    --navigation-hover-background-color: yellow;
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+}
+
+article{
+    position: absolute;
+}
+
+article img{
+    position: absolute;
+}
+
+p{
+    padding: 25px;
+    color: purple;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
