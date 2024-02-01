@@ -1,23 +1,21 @@
 @import url("https://fonts.google.com/specimen/Oswald?query=oswald");
 
 :root {
-    --primary-color: #5EB1BF;
-    --secondary-color: #CD5334;
-    --accent-color-1: #2e28a2;
-    --accent-color-1: #1F487E;
+    --primary-color: #00A7E1;
+    --secondary-color: #00171F;
+    --accent-color-1: #003459;
+    --accent-color-2: #FFFFFF;
 
-    --heading-font: "https://fonts.google.com/specimen/Oswald?query=oswald", serif;
-    --paragraph-font: "https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans", serif;
-    --navigation-background-color: blue;
-    --navigation-link-color: darkblue;
-    --navigation-hover-link-color: orange;
-    --navigation-hover-background-color: yellow;
+}
+
+body{
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2{
-    font-family: var(--heading-font);
+    font-family: "Oswald", serif;
     color: var(--primary-color);
-    position: absolute;
 }
 
 article{
@@ -33,10 +31,15 @@ p{
     color: purple;
 }
 
+.hero{
+    position: relative;
+}
+
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+    
 }
 
 
