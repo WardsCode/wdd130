@@ -91,7 +91,10 @@ footer{
     position: absolute;
     top: 150px;
     background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+
 }
+
 
 .hero p{
     color: var(--accent-color-2);
