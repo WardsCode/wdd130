@@ -69,13 +69,14 @@ p{
 footer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #00A7E1;
 
 }
 
 .sociallinks {
-    display: flex;
-    justify-content: flex-end;
 
+    display: flex;
     text-decoration: none;
   }
 
@@ -122,7 +123,7 @@ section img{
 .adventure{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    border: 1px solid;
+
     justify-content: space-around;
 
 }
