@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test page</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+  <body>
+    <h1>Basic HTML and CSS quiz</h1>
+    <form action="">
+
+      <div class="container">
+        <label for="q1"> <strong>1.</strong> What does the accronym CSS stads for?</label>
+        <input type="text" name="q1" id="q1">
+      </div>
+
+      <div class="container">
+        <label for="q2"> <strong>2. </strong>How are id and class attributes selected in CSS?</label>
+        <textarea name="q2" id="q2" cols="50" rows="10"></textarea>
+      </div>  
+      
+      
+      <div class="container">
+        <label for="q3"> <strong>3. </strong> Which of the following is a valid CSS comment?</label>
+        <select name="q3" id="q3">
+          <option value="empty" selected disabled>Choose one...</option>
+          <option value="option1"><--Here is a comment--></option>
+          <option value="option2">/*--Here is a comment--*/</option>
+          <option value="option3">//Here is a comment//</option>
+          <option value="option4">/*Here is a comment*/</option>
+          <option value="option5"><!-Here is a comment-!></option>
+        </select>
+      </div>
+
+      <div class="container">
+        <label for="q4"> <strong>4. </strong>What is the botton margin given this declaration?</label>
+        <img src="images/question.JPG" alt="">
+        <input type="number" name="q4" id="q4" min="0" max="100">
+      </div>
+
+      <div class="container">
+        <input type="submit" value="Submit Quiz">
+      </div>
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+main{
+    border: 1px solid;
+    padding: 5px;
+    display: flow-root;
+}
+
+section{
+    border: 1px solid;
+    padding: 5px;
+    margin: 2px;
+}
+
+.parent-box{
+    display: flex;   /*all turn to in line just with this line*/
+    flex-direction: column-reverse;
+}
