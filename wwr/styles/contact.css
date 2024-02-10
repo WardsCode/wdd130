@@ -11,7 +11,7 @@
 
 * {
     box-sizing: border-box;
-    /*border: 1px solid;*/
+    
 }
 
 
@@ -86,12 +86,12 @@ footer{
 }
 
 .map-google{
-    border: 10px solid #00A7E1;
-    border-radius: 5px;
+    border: 5px solid #003459;
+    border-radius: 10px;
     
 }
 
-img{
+main img{
     width: 90%;
     border-radius: 20px;
     border: 2px solid #00A7E1;
@@ -109,5 +109,41 @@ figcaption{
     color: #eee;
 }
 
-    
+.contact-form{
+    margin: 15px;
+    padding: 5px;
+    background-color: #eee;
+    border-radius: 17px;
+}
+
+.form-contact
+{
+    padding: 20px;
+ 
+}
+
+label{
+    margin: 5px;
+}
+
+.ratiosq{
+    margin: 5px;
+}
+
+.text-area{
+    margin: 5px;
+    padding: 5px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+}
+
+
+input[type=button]{
+    background-color: #003459;
+    color: #eee;
+    margin: 10px;
+    width: 15%;
 }

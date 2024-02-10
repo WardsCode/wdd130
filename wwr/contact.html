@@ -60,32 +60,36 @@
         
               <div class="contact-form">
                 <h1>Contact Us</h1>
-                <form action="">
+                <form action="" class="form-contact">
+                    <div class="personal-info">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <br>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <br><br>
+                    </div>
+
+                    <div class="ratiosq">
+                        <label for="purpose">Reason For Contact:</label>
+                        <input type="radio" id="General inquiry" value="General Inquiry"><label for="General Inquiry">General Inquiry</label>
+                        <input type="radio"> <label for="reservation">Reservation Question</label>
+                        <input type="radio"> <label for="suggestion">Website Suggestion</label>
+                    </div>
         
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name">
-                  <br>
-                  
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email">
-                  <br>
-        
-                  <label for="purpose">Reason For Contact</label>
-                  <input type="radio" name="General inquiry">
-                  <input type="radio">
-                  <input type="radio">
-                  <br>
-        
-                  <label for="concern">Concern</label>
-                  <textarea name="concern" id="concern" cols="30" rows="10"></textarea>
-                  <br>
+                    <div class="text-area">
+                        <label for="concern">Concern:</label>
+                        <textarea name="concern" id="concern" cols="30" rows="10"></textarea>
+                    </div>
                   
                   <label for="check">Subscribe to our monthly newsletter</label>
                   <input type="checkbox" name="check" id="check">
                   <br>
-        
-                  <input type="button" value="Submit">
-        
+                    <div class="div-button">
+                        <input type="button" value="Submit">
+                    </div>
         
                 </form>
         
