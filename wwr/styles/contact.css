@@ -141,9 +141,10 @@ textarea{
 }
 
 
-input[type=button]{
+input[type=submit]{
     background-color: #003459;
     color: #eee;
     margin: 10px;
     width: 15%;
+    border-radius: 5px;
 }
