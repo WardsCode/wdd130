@@ -1,0 +1,113 @@
+@import url("https://fonts.google.com/specimen/Oswald?query=oswald");
+
+:root {
+    --primary-color: #00A7E1;
+    --secondary-color: #00171F;
+    --accent-color-1: #003459;
+    --accent-color-2: #FFFFFF;
+    --heading-font: 'Oswald', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    /*border: 1px solid;*/
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid #003459;
+}
+
+header nav {
+    padding: 20px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    max-width: 960px;
+    padding: 15px;
+    display: flow-root;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    color: white;
+}
+
+h1, h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p{
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #00A7E1;
+
+}
+
+.sociallinks {
+
+    display: flex;
+    text-decoration: none;
+}
+
+
+.contact-box{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #eee;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.5)
+}
+
+.contact-info{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.map-google{
+    border: 10px solid #00A7E1;
+    border-radius: 5px;
+    
+}
+
+img{
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid #00A7E1;
+}
+
+.pictures{
+    background-color: #003459;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+
+figcaption{
+    text-align: center;
+    color: #eee;
+}
+
+    
+}
