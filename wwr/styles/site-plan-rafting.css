@@ -4,11 +4,12 @@
 :root{
     --primary-color: #00A7E1;
     --secondary-color: #00171F;
-    --accent-color-1: #003459;
-    --accent-color-2: #FFFFFF;
+    --accent1-color: #003459;
+    --accent2-color: #FFFFFF;
 
     --heading-font: "Open Sans", serif;
     --paragraph-font: "DM Sans", serif;
+    
     --nav-background-color: #00171F;
     --nav-link-color: #00A7E1;
     --nav-hover-link-color: orange;
@@ -31,7 +32,7 @@ h1, h2, h3, h4, h5, h6, h7{
 
 header{
     padding: 20px;
-    background-color: var(--accent-color-1);
+    background-color: var(--accent1-color);
 }
 
 p{
