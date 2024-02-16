@@ -1,4 +1,6 @@
-@import url("https://fonts.google.com/specimen/Oswald?query=oswald");
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 :root {
     --primary-color: #00A7E1;
