@@ -9,10 +9,10 @@
 
     --heading-font: "Open Sans", serif;
     --paragraph-font: "DM Sans", serif;
-    --navigation-background-color: #00171F;
-    --navigation-link-color: #00A7E1;
-    --navigation-hover-link-color: orange;
-    --navigation-hover-background-color: #FFFFFF;
+    --nav-background-color: #00171F;
+    --nav-link-color: #00A7E1;
+    --nav-hover-link-color: orange;
+    --nav-hover-background-color: #FFFFFF;
 }
 
 body{
@@ -39,23 +39,23 @@ p{
 }
 
 nav{
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a{
     display: block;
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited{
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover{
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
