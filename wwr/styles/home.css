@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+:root {
+    --primary-color: #00A7E1;
+    --secondary-color: #00171F;
+    --accent-color-1: #003459;
+    --accent-color-2: #FFFFFF;
+    --heading-font: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    display: flow-root;
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid #003459;
+}
+
+header nav {
+    padding: 20px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    max-width: 1960px;
+    padding: 15px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    color: white;
+}
+
+h1, h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #00A7E1;
+
+}
+
+.sociallinks {
+    display: flex;
+    text-decoration: none;
+}
+
+/*/////////////*/
+
+.container-full-img img{
+    width: 100%;
+    border-radius: 20px;    
+
+}
+
+.container-full-img{
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    
+}
+.container-full-img h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 300px;
+    background-color: #00A7E1;
+    color: #003459;
+    height: 50px;
+    box-shadow: 20px blue;
+    font-weight:bolder;    
+}
+
+/**/
+
+.call-to-action{
+    display: flex;
+    
+}
+
+.call-to-action img{
+    border: 3px solid greenyellow;
+    border-radius: 80px;
+    width: 300px;
+    margin-right: 17px;    
+}
+
+.call-to-action-description{
+    padding: 10px;
+    text-align: justify;
+    display: grid;
+}
+.call-to-action-description button{
+    width: 30%;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/**/
+
+.page-info{
+    margin-top: 25px;
+    padding: 15px;
+    display: grid;
+    grid-template-areas: 
+    
+    "header header header"
+    "section section section"
+    
+    ;
+    grid-gap: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.page-info h2{
+    grid-area: header;
+    text-align: center;
+}
+
+.info-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info-boxes h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.info-boxes p{
+    padding: 10px;
+    text-align: center;
+}
+
+/**/
+.sigup-form{
+    background-color:aqua;
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    width: 18%;
+    border-radius: 50px;
+    color: #003459;
+}
+
+.sigup-form h3{
+    color: #003459;
+}
