@@ -111,13 +111,16 @@ footer{
     text-align: justify;
     display: grid;
 }
-.call-to-action-description button{
-    width: 30%;
+.call-to-action-description a{
+    display: block;
+    padding: 10px;
+    text-align: center;
     background-color: greenyellow;
     border: none;
     border-radius: 30px;
     text-decoration: none;
     font-weight: bolder;
+    height: 40px;
 }
 
 /**/
